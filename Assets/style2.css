@@ -77,7 +77,6 @@ header a {
 
 #work {
     background-color: lightcyan;
-    flex: 5 5 50vw;
 }
 
 .projects {
@@ -92,18 +91,28 @@ header a {
     display: flex;
     align-items: flex-end;
     min-height: 200px;
+    min-width: 50vw;
     flex: 1 1 400px;
     margin: 20px;
     border: 5px solid slategray;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
-#projectone {
-    flex: 1 1 800px;
-    background-image: url(./images/code\ refactor.png);
+.projectitem img {
+    min-height: 200px;
+    width: 100vw;
 }
 
-#projecttwo {
+.projectitem div {
+    border: 2px solid slategray;
+    background-color: lightblue;
+    padding: 3px;
+    margin: -400px;
+    text-align: right;
+    z-index: 5;
+}
+
+/* #projecttwo {
     background-image: url(http://placekitten.com/450/200);
 }
 
@@ -117,15 +126,7 @@ header a {
 
 #projectfive {
     background-image: url(http://placekitten.com/450/250);
-}
-
-.projectitem div {
-    border: 2px solid slategray;
-    background-color: lightblue;
-    padding: 3px;
-    margin: 5px;
-    text-align: right;
-}
+} */
 
 .projectitem code {
     color: slategray;
@@ -151,7 +152,10 @@ address a {
     filter: sepia (50%);
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 576px) {
     header {
         padding: 0;
     }
@@ -160,16 +164,11 @@ address a {
         width: 100vw;
         height: 10vh;
         padding-top: 20px;
-        text-align: center;
     }
 
     header nav {
         width: 100vw;
     }
-}
-
-
-@media screen and (max-width: 576px) {
 
     #aboutme, #work, footer {
         flex-wrap: wrap;

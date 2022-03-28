@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 40px 0px;
+    background: lightblue;
+    width: 100%;
+}
+
+header h1 {
+    position: relative;
+    background-color: pink;
+    display: inline-block;
+    padding-left: 50px;
+}    
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+}
+
+header a {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.imagecontainer {
+    display: flex;
+    background-image: url("./pexels-photo-310452.webp");
+    height: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+#aboutme, footer {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#aboutme h2, #work h2, footer h2 {
+    min-width: 25vh;
+    text-align: right;
+    margin-right: 15px;
+    padding-right: 5px;
+    border-right: 5px solid black;
+}
+
+#work {
+    background-color: lightcyan;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.projectitem {
+    margin-bottom: 20px;
+    min-height: 120px;
+    min-width: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#projectone {
+    min-width: 100%;
+    background-color: blue;
+}
+
+#projecttwo {
+    background-color: yellow;
+}
+
+#projectthree {
+    background-color: orange;
+}
+
+#projectfour {
+    background-color: purple;
+}
+
+#projectfive {
+    background-color: red;
+}
+
+.projectitem div {
+    border: 2px solid black;
+    background-color: lightseagreen;
+    padding: 3px;
+    margin: 5px;
+}
+
+address {
+    display: inline-block;
+    background-color: navajowhite;
+    text-align: center;

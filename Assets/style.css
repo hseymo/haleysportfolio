@@ -5,11 +5,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     color: black;
+    background-color: whitesmoke;
 }
 
 header {
     padding: 50px 0px;
-    background: lightblue;
+    /* background color not working */
+    background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -18,12 +20,11 @@ header {
 
 header h1 {
     background-color: dodgerblue;
-    padding: 5px 5px 5px 50px;
+    padding: 10px 10px 10px 50px;
 }    
 
 nav {
     margin-right: 30px;
-    /* background-color: blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -31,7 +32,7 @@ nav {
 
 header a {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px;
     border-bottom: 4px solid dodgerblue;
     margin: 10px;
     color: dodgerblue;
@@ -54,16 +55,19 @@ header a {
     font-weight: bolder;
 }
 
+#aboutme {
+    margin-right: 20px;
+}
+
 #aboutme, footer {
     display: flex;
     margin-top: 20px;
-    margin-right: 20px;
 }
 
 #work {
     display: flex;
     margin-top: 20px;
-    margin-right: 20px;
+    flex: 5 5 50vw;
 }
 
 #aboutme h2, #work h2, footer h2 {
@@ -75,16 +79,10 @@ header a {
     color: slategray;
 }
 
-#work {
-    background-color: lightcyan;
-    flex: 5 5 50vw;
-}
-
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aqua;
     min-width: 78vw;
 }
 
@@ -92,8 +90,8 @@ header a {
     display: flex;
     align-items: flex-end;
     min-height: 200px;
-    flex: 1 1 400px;
-    margin: 20px;
+    flex: 1 1 30vw;
+    margin: 20px 20px 20px 0px;
     border: 5px solid slategray;
     background-size: cover;
 }
@@ -122,8 +120,8 @@ header a {
 .projectitem div {
     border: 2px solid slategray;
     background-color: lightblue;
-    padding: 3px;
-    margin: 5px;
+    padding: 7px;
+    margin: 5px 5px 5px -2px;
     text-align: right;
 }
 
@@ -131,13 +129,18 @@ header a {
     color: slategray;
 }
 
+/* footer elements */
+footer {
+    background-color: whitesmoke;
+}
+
 address {
     display: flex;
-    background-color: lightskyblue;
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-between;
     min-width: 78vw;
+    padding: 0px 20px 20px 0px;
 }
 
 address a {
@@ -147,11 +150,14 @@ address a {
     color: slategray;
 }
 
+
 .projectitem:hover {
-    filter: sepia (50%);
+    background-color: yellow;
 }
 
-@media screen and (max-width: 866px) {
+
+/* media screens */
+@media screen and (max-width: 872px) {
     header {
         padding: 0;
     }
@@ -163,11 +169,22 @@ address a {
         text-align: center;
     }
 
-    header nav {
+    nav {
         width: 100vw;
+        margin-right: 0px;
     }
 }
 
+@media screen and (max-width: 831px) {
+    .projectitem {
+        flex: 1 1 70vw;
+    }
+    
+    address {
+        flex-direction: column;
+        min-width: 80vw;
+    }
+}
 
 @media screen and (max-width: 576px) {
 
@@ -179,9 +196,22 @@ address a {
         border-right: none;
         border-bottom: 5px solid slategray;
         margin-bottom: 20px;
+        margin-left: 15px;
+        text-align: center;
     }
 
-    address a {
-        width: 500px;
+    #aboutme p {
+        margin-left: 15px;
+    }
+
+    address {
+        min-width: 100vw;
+    }
+
+}
+
+@media screen and (max-width: 444px) {
+    header h1 {
+        height: 20vh;
     }
 }

@@ -39,7 +39,8 @@ header a {
 
 .imagecontainer {
     display: flex;
-    background-image: url("./images/top\ banner.png");
+    /* background-image: url("./images/top\ banner.png"); */
+    background-image: url("./images/top\ banner\ 2.png");
     background-size: contain;
     height: 200px;
     justify-content: flex-end;
@@ -167,6 +168,7 @@ address a {
         height: 10vh;
         padding-top: 20px;
         text-align: center;
+        padding-left: 0px;
     }
 
     nav {
@@ -205,7 +207,7 @@ address a {
         text-align: center;
     }
 
-    #aboutme p {
+    #aboutme p, .projects {
         margin-left: 15px;
     }
 

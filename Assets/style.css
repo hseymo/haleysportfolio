@@ -5,12 +5,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     color: black;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 header {
     padding: 50px 0px;
-    /* background color not working */
     background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +114,7 @@ header a {
 
 #projectfive {
     background-image: url(http://placekitten.com/450/250);
-}
+} 
 
 .projectitem div {
     border: 2px solid slategray;
@@ -150,9 +149,10 @@ address a {
     color: slategray;
 }
 
-
+/* pseudo-class */
 .projectitem:hover {
-    background-color: yellow;
+    box-shadow: 10px 10px;
+    filter: opacity(0.7);
 }
 
 
@@ -172,6 +172,11 @@ address a {
     nav {
         width: 100vw;
         margin-right: 0px;
+    }
+
+    .imagecontainer {
+        justify-content: center;
+        padding-bottom: 10px;
     }
 }
 

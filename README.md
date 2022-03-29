@@ -12,18 +12,18 @@ Please check out this project by clicking [here](https://hseymo.github.io/haleys
 
 APPLICATION:
 Desktop version: 
-![Screenshot](./Assets/readme%20screenshots/../readme%20screenshots/desktop1.png)
-![Screenshot](./Assets/readme%20screenshots/../readme%20screenshots/desktop2.png)
-![Screenshot](./Assets/readme%20screenshots/../readme%20screenshots/desktop3.png)
+![Screenshot](./Assets/images/screenshots/desktop1.png)
+![Screenshot](./Assets/images/screenshots/desktop2.png)
+![Screenshot](./Assets/images/screenshots/desktop3.png)
 
 Tablet version:
-![Screenshot](./Assets/readme%20screenshots/tablet.png)
+![Screenshot](./Assets/images/screenshots/tablet.png)
 
 Phone/small screen version:
 
-![Screenshot](./Assets/readme%20screenshots/phone1.png)
-![Screenshot](./Assets/readme%20screenshots/phone2.png)
-![Screenshot](./Assets/readme%20screenshots/phone3.png)
+![Screenshot](./Assets/images/screenshots/phone1.png)
+![Screenshot](./Assets/images/screenshots/phone2.png)
+![Screenshot](./Assets/images/screenshots/phone3.png)
 
 ACKNOWLEDGMENTS: Thank you to UW Web Development Bootcamp for providing the overall concept of layout for this project. 
 

@@ -1,5 +1,5 @@
-# homework2
-LICENSE: [GNU Public License] (https://github.com/hseymo/haleysportfolio/blob/main/LICENSE)
+# Haley Seymour's Porfolio Project
+LICENSE: [GNU Public License](https://github.com/hseymo/haleysportfolio/blob/main/LICENSE)
 
 INSTALLATION: Fork this repository and clone it to your local source using git clone commands.
 
@@ -19,12 +19,13 @@ Desktop version:
 Tablet version:
 ![Screenshot](./Assets/readme%20screenshots/tablet.png)
 
-Phone version:
+Phone/small screen version:
+
 ![Screenshot](./Assets/readme%20screenshots/phone1.png)
 ![Screenshot](./Assets/readme%20screenshots/phone2.png)
 ![Screenshot](./Assets/readme%20screenshots/phone3.png)
 
-ACKNOWLEDGMENTS:
+ACKNOWLEDGMENTS: Thank you to UW Web Development Bootcamp for providing the overall concept of layout for this project. 
 
 QUESTIONS:
 If you have any questions, please contact me on GitHub at [hseymo](https://github.com/hseymo) or by [email](mailto:fake@gmail.com).

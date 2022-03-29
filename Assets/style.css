@@ -213,6 +213,7 @@ address a {
 
     address {
         min-width: 100vw;
+        padding-right: 0px;
     }
 
 }
@@ -221,4 +222,5 @@ address a {
     header h1 {
         height: 20vh;
     }
+
 }

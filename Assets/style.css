@@ -101,23 +101,23 @@ header a {
 
 #projectone {
     flex: 1 1 800px;
-    background-image: url(./images/code\ refactor.png);
+    background-image: url(./images/projectimages/athletictrainingquiz.png);
 }
 
 #projecttwo {
-    background-image: url(http://placekitten.com/450/200);
+    background-image: url(./images/projectimages/password\ generator.png);
 }
 
 #projectthree {
-    background-image: url(http://placekitten.com/475/300);
+    background-image: url(./images/projectimages/rockpaperscissors.png);
 }
 
 #projectfour {
-    background-image: url(http://placekitten.com/450/240);
+    background-image: url(./images/projectimages/portfolioprojectgithub.png);
 }
 
 #projectfive {
-    background-image: url(http://placekitten.com/450/250);
+    background-image: url(./images/projectimages/code\ refactor.png);
 } 
 
 .projectitem div {
@@ -219,6 +219,10 @@ address a {
         padding-right: 0px;
     }
 
+}
+
+@media  and (max-width: 770px) {
+    
 }
 
 @media screen and (max-width: 444px) {

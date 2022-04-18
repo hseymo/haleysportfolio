@@ -37,4 +37,4 @@ Phone/small screen version:
 ACKNOWLEDGMENTS: Thank you to UW Web Development Bootcamp for providing the overall concept of layout for this project. 
 
 QUESTIONS:
-If you have any questions, please contact me on GitHub at [hseymo](https://github.com/hseymo) or by [email](mailto:fake@gmail.com).
+If you have any questions, please contact me on GitHub at [hseymo](https://github.com/hseymo) or by [email](mailto:haleycseymour@comcast.net).

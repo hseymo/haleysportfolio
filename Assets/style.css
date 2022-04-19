@@ -101,11 +101,11 @@ header a {
 
 #projectone {
     flex: 1 1 800px;
-    background-image: url(./images/projectimages/athletictrainingquiz.png);
+    background-image: url(./images/projectimages/activitygenerator.png);
 }
 
 #projecttwo {
-    background-image: url(./images/projectimages/passwordgenerator.png);
+    background-image: url(./images/projectimages/athletictrainingquiz.png);
 }
 
 #projectthree {

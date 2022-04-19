@@ -109,15 +109,15 @@ header a {
 }
 
 #projectthree {
-    background-image: url(./images/projectimages/rockpaperscissors.png);
+    background-image: url(./images/projectimages/weatherdashboard.png);
 }
 
 #projectfour {
-    background-image: url(./images/projectimages/portfolioprojectgithub.png);
+    background-image: url(./images/projectimages/workdayscheduler.png);
 }
 
 #projectfive {
-    background-image: url(./images/projectimages/coderefactor.png);
+    background-image: url(./images/projectimages/passwordgenerator.png);
 } 
 
 .projectitem div {

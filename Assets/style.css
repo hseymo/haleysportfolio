@@ -99,26 +99,43 @@ header a {
     background-size: cover;
 }
 
-#projectone {
+#one {
     flex: 1 1 800px;
+    background-image: url(./images/projectimages/Booklastic.png);
+}
+
+#two {
+    background-image: url(./images/projectimages/MVC\ Tech\ Blog.png);
+}
+
+#three {
     background-image: url(./images/projectimages/activitygenerator.png);
 }
 
-#projecttwo {
+#four {
+    background-image: url(./images/projectimages/eCommerceBackEnd.png);
+}
+
+#five {
     background-image: url(./images/projectimages/athletictrainingquiz.png);
 }
 
-#projectthree {
+#six {
+    background-image: url(./images/projectimages/prompts3.png);
+}
+
+#seven {
     background-image: url(./images/projectimages/weatherdashboard.png);
 }
 
+/* 
 #projectfour {
     background-image: url(./images/projectimages/workdayscheduler.png);
 }
 
 #projectfive {
     background-image: url(./images/projectimages/passwordgenerator.png);
-} 
+}   */
 
 .projectitem div {
     border: 2px solid slategray;
@@ -219,10 +236,6 @@ address a {
         padding-right: 0px;
     }
 
-}
-
-@media  and (max-width: 770px) {
-    
 }
 
 @media screen and (max-width: 444px) {

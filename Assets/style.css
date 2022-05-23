@@ -102,30 +102,37 @@ header a {
 #one {
     flex: 1 1 800px;
     background-image: url(./images/projectimages/Booklastic.png);
+    background-size: 100%;
 }
 
 #two {
     background-image: url(./images/projectimages/MVC\ Tech\ Blog.png);
+    background-size: 100%;
 }
 
 #three {
     background-image: url(./images/projectimages/activitygenerator.png);
+    background-size: 100%;
 }
 
 #four {
     background-image: url(./images/projectimages/eCommerceBackEnd.png);
+    background-size: 100%;
 }
 
 #five {
     background-image: url(./images/projectimages/athletictrainingquiz.png);
+    background-size: 100%;
 }
 
 #six {
     background-image: url(./images/projectimages/prompts3.png);
+    background-size: 100%;
 }
 
 #seven {
     background-image: url(./images/projectimages/weatherdashboard.png);
+    background-size: 100%;
 }
 
 /* 
